@@ -1,0 +1,141 @@
+ 
+        body{
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 60px;
+        }
+        *{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #div1, #div2, #div3{
+            text-align: center;
+        }
+        #div1{
+            background-color: rgb(116, 243, 237);
+        }
+        #div2{
+            background-color: aliceblue;
+        }
+        #div3{
+            align-content: center;
+            background-color: rgb(245, 210, 170);
+        }
+        #div4, #div5, #div6{
+            background-color: white;
+        }
+        #div1, #div2, #div3, #div4, #div5, #div6{
+            max-width: 650px;
+            margin: 0 auto;
+            border-style: double;
+            padding: 5px;
+        }
+        #div6{
+            display: none;
+        }
+        h2{
+            color: darkblue; 
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            font-size: xx-large;
+        }
+        h3{
+            color: rgb(48, 47, 47);
+        }
+        li{
+            color: darkblue;
+        }
+        span{
+            font-style: italic;
+        }
+        #pageheading{
+            text-transform: lowercase;
+        }
+        .default_text{
+            color: rgb(48, 47, 47);
+            font-size: larger;
+            margin-left: 5pt;
+            margin-right: 5pt;
+        } 
+        .default_text2{
+            color: rgb(48, 47, 47);
+            font-size: larger;
+            text-align: center;
+        }
+        .default_text3{
+            color: rgb(48, 47, 47);
+            font-size: larger;
+            text-align: center;
+            margin-left: 5pt;
+            margin-right: 5pt;
+            text-decoration: underline dotted fuchsia;
+        }  
+        .media_title{
+            font-style: italic;
+        }
+        .intext_link{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: purple;
+        }
+        nav{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .box{
+            position: relative;
+            top: -10px;
+            right: -500px;
+            background-color: aliceblue;
+            padding: 5pt;
+            width: 240px;
+            border-style: groove;
+            border-radius: 5px;
+        }
+        input[type=text]{
+            background-color: white;
+            border-radius: 5px;
+            overflow: auto;
+        }
+        input[type=radio]{
+            background-color: white;
+        }
+        input[type=button]{
+            background: linear-gradient(white);    
+        }
+        table{
+            table-layout: auto;
+            max-width: 650px;
+            text-align: center;
+            background-color: rgb(245, 210, 170);
+        }
+        table, th, td{
+            border: 2px solid rgb(232, 238, 245);
+            border-collapse: collapse;
+            border-style: outset;
+        }
+        th, td{
+            padding: 5px;
+        }
+        .video{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box2{
+            display: inline-block;
+            padding: 10px;
+        }
+        footer{
+            position: fixed;
+            padding: 5px;
+            bottom: 0;
+            right: 0;
+            height: 60px;
+            background-color: white;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: aqua;
+        }
